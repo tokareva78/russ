@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Подготовка к ЕГЭ и ОГЭ по русскому языку</title>
+
+  <!-- prefetch заменить на preload -->
+  <link rel="prefetch" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="prefetch" href="fonts/RobotoFlex.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/boxicons.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <!-- Загрузка -->
+<div class="preloader" id="preloader">
+  <div class="preloader__percents"><span id="percents">0</span></div>
+  <div class="preloader__loader">
+    <div class="wave">
+      <img src="img/svg/icon.svg" alt="Перо" width="100" height="100" class="wave__icon">
+    </div>
+  </div>
+</div>
+<!-- Загрузка -->
+
+  <div class="site-container">
+    <header class="header-section">
+
+  <div class="overlay _overlay"></div>
+
+  <div class="container">
+    <div class="header-section__navigation">
+
+      <div class="header">
+
+        <!-- LOGO -->
+        <div class="header__logo">
+          <a href="index.html" class="header-logo _header-logo">
+            <img src="img/svg/logo-vertical.svg" width="170" height="70" alt="Русский легко">
+          </a>
+        </div>
+        <!-- LOGO -->
+
+        <!-- NAV  -->
+        <div class="header__menu">
+          <div class="menu-content _menu">
+
+            <nav class="nav menu-content__nav _nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+
+                <!-- Наши курсы -->
+                <li class="nav__item nav__item--drop">
+                  <a href="#" class="nav__link nav__link--drop">Наши курсы</a>
+
+                  <ul class="nav__list nav__list--dropdown dropdown-list dropdown-submenu" data-grid="2">
+
+                    <!-- Подготовка к ЕГЭ -->
+                    <li class="dropdown-submenu__item">
+                      <a href="courses-ege-page.html" class="box dropdown-submenu__banner">
+                        <img src="img/decor/group-8.webp" alt="Подготовка к ЕГЭ">
+                        <div class="box__title">
+                          <h2>Подготовка к ЕГЭ</h2>
+                          <p>Для учеников 10-11 классов и всех желающих сдавать ЕГЭ по русскому языку в 2024 году</p>
+                        </div>
+                      </a>
+                    </li>
+
+                    <!-- Подготовка к ОГЭ -->
+                    <li class="dropdown-submenu__item">
+                      <a href="courses-oge-page.html" class="box dropdown-submenu__banner">
+                        <img src="img/decor/group-10.webp" alt="Подготовка к ОГЭ">
+                        <div class="box__title">
+                          <h2>Подготовка к ОГЭ</h2>
+                          <p>Пройдем всю программу по русскому языку за 5–9 классы (абсолютно все необходимые
+                            темы)</p>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="dropdown-submenu__item" data-grid="3" data-grid-span="2" data-nav="box-button">
+                      <div class="dropdown-submenu__title" data-grid-span="3">
+                        Мини-курсы
+                      </div>
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Сочинение <span>ЕГЭ</span></h2>
+                        </div>
+                      </a>
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Сочинение <span>ОГЭ</span></h2>
+                        </div>
+                      </a>
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Изложение <span>ОГЭ</span></h2>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+
+                </li>
+
+                <!-- Платные продукты -->
+                <li class="nav__item nav__item--drop">
+                  <a href="#" class="nav__link nav__link--drop">Практика</a>
+
+                  <ul class="nav__list nav__list--dropdown dropdown-list dropdown-submenu" data-grid="3">
+
+                    <li class="dropdown-submenu__item" data-nav="box-button">
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Тренажёр <br>«Слова с <span>ПРЕ-</span> и <span>ПРИ-</span>»</h2>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="dropdown-submenu__item" data-nav="box-button">
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Чередование гласных в корне</h2>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="dropdown-submenu__item" data-nav="box-button">
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Ударения в словах</h2>
+                        </div>
+                      </a>
+                    </li>
+                    <!-- <li class="dropdown-submenu__item">
+                                    <h2 class="dropdown-submenu__title">Подготовка к ЕГЭ</h2>
+                                    <a href="sales.html" class="nav__link dropdown-submenu__banner">
+                                      <img src="img/decor/sochinenie.webp" alt="Подготовка к ЕГЭ">
+                                    </a>
+                                  </li> -->
+
+                  </ul>
+
+                </li>
+
+                <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+        <!-- NAV  -->
+
+        <!-- CONNECT -->
+        <div class="header__connection">
+          <!-- Заказать звонок -->
+          <div class="header-btn _header-btn">
+            <button class="btn btn--border btn--sm _btn" data-modal-target="modal" aria-label="Заказать звонок" data-img-form="img/decor/group-7.webp">Заказать звонок</button>
+          </div>
+          <!-- Заказать звонок -->
+          <!-- Социальные сети -->
+          <ul class="header-socials _header-socials">
+            <li><a href="whatsapp://send?phone=+79253753577" class="header-socials__icon" target="_blank"><img
+                  src="img/svg/icon-wts.svg" width="30" height="30" alt="Ватсап Русский легко"></a></li>
+            <li><a href="https://t.me/SDvorets" class="header-socials__icon" target="_blank"><img
+                  src="img/svg/icon-tlgr.svg" width="30" height="30" alt="Телеграм Русский легко"></a></li>
+          </ul>
+          <!-- Социальные сети -->
+        </div>
+        <!-- CONNECT -->
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BURGER -->
+  <div class="hamburger-slim">
+    <div class="icon nav-icon _hamburger" aria-label="Меню">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <!-- BURGER hamburger-slim -->
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav _mobile-nav">
+    <div class="mobile-nav__logo _mobile-logo"></div>
+    <div class="mobile-nav__menu _mobile-nav-menu"></div>
+    <div class="mobile-nav__footer _mobile-nav-footer"></div>
+  </div>
+  <!-- MOBILE NAV -->
+
+</header>
+
+    <main class="main">
+      <section class="thanks-section main__thanks-section">
+  <div class="thanks-section__container container">
+    <div class="thanks-section__content">
+      <div class="thanks-section__svg">
+        <svg width="380px" height="500px" viewBox="0 0 837 1045" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <path d="M353,9 L626.664028,170 L626.664028,487 L353,642 L79.3359724,487 L79.3359724,170 L353,9 Z"
+            id="Polygon-1" stroke="#007FB2" stroke-width="6" sketch:type="MSShapeGroup"></path>
+          <path d="M78.5,529 L147,569.186414 L147,648.311216 L78.5,687 L10,648.311216 L10,569.186414 L78.5,529 Z"
+            id="Polygon-2" stroke="#EF4A5B" stroke-width="6" sketch:type="MSShapeGroup"></path>
+          <path d="M773,186 L827,217.538705 L827,279.636651 L773,310 L719,279.636651 L719,217.538705 L773,186 Z"
+            id="Polygon-3" stroke="#795D9C" stroke-width="6" sketch:type="MSShapeGroup"></path>
+          <path d="M639,529 L773,607.846761 L773,763.091627 L639,839 L505,763.091627 L505,607.846761 L639,529 Z"
+            id="Polygon-4" stroke="#aac5d5" stroke-width="6" sketch:type="MSShapeGroup"></path>
+          <path d="M281,801 L383,861.025276 L383,979.21169 L281,1037 L179,979.21169 L179,861.025276 L281,801 Z"
+            id="Polygon-5" stroke="#fecdc9" stroke-width="6" sketch:type="MSShapeGroup"></path>
+        </g>
+      </svg>
+      </div>
+
+      <div class="thanks-section__message message-box">
+        <h1>404</h1>
+        <p>Страница не найдена</p>
+        <div class="message-box__btns buttons-con">
+          <div class="action-link-wrap">
+            <!-- <a onclick="history.back(-1)" class="link-button link-back-button">Вернуться</a>
+        <a href="index.html" class="link-button">На главную</a> -->
+            <a onclick="history.back(-1)" class="btn btn--wl"><i
+                class="bx bx-left-arrow-alt bx-fade-left"></i>Вернуться</a>
+            <!-- <a onclick="history.back(-1)" class="btn btn--w btn--mb">Вернуться</a> -->
+            <a href="index.html" class="btn btn--link">На главную
+              <svg viewBox="0 0 70 36">
+                <path
+                  d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527">
+                </path>
+              </svg>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    </main>
+    <footer class="footer-section">
+  <div class="container">
+
+    <div class="footer">
+      <div class="footer__item">
+        <!-- LOGO -->
+        <div class="footer__logo">
+          <a href="index.html" class="footer-logo">
+            <img src="img/svg/logo-vertical-white.svg" width="170" height="70" alt="Русский легко">
+          </a>
+        </div>
+        <!-- LOGO -->
+        <div class="footer__content">
+          <p>@ 2023 ИП Дворецкий В.Е.</p>
+          <p><a href="publichnaya-oferta.html">Публичная оферта</a></p>
+          <p><a href="politic.html">Политика конфиденциальности</a></p>
+            <p>Создание и сопровождение сайтов <a href="politic.html">АннаТок</a></p>
+        </div>
+
+      </div>
+      <div class="footer__item">
+        <nav class="footer__nav">
+          <ul>
+            <li>
+              <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">О преподавателе</a></li>
+                <li><a href="#">Преимущества нашей методики</a></li>
+              </ul>
+
+            </li>
+            <li>
+              <h2>Курсы</h2>
+              <ul>
+                <li><a href="#">Подготовка к ЕГЭ</a></li>
+                <li><a href="#">Подготовка к ОГЭ</a></li>
+              </ul>
+            </li>
+            <li>
+              <h2>Мини курсы</h2>
+              <ul>
+                <li><a href="#">Сочинение ЕГЭ</a></li>
+                <li><a href="#">Сочинение ОГЭ</a></li>
+                <li><a href="#">Изложение ОГЭ</a></li>
+              </ul>
+            </li>
+            <li>
+              <h2>Практика</h2>
+              <ul>
+                <li><a href="">Тренажёр «Слова с ПРЕ- и ПРИ-»</a></li>
+                <li><a href="">Чередование гласных в корне</a></li>
+                <li><a href="">Ударения в словах</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+
+    </div>
+
+    <div class="footer-section__bottom footer-bottom">
+      <div class="footer-bottom__content">
+        <ul>
+          <li><a href="malto:1ruslegko@gmail.com">1ruslegko@gmail.com</a></li>
+          <li><a
+            href="https://wa.me/79253753577?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82...">WhatsApp</a></li>
+          <li><a href="https://t.me/ruslegko">телеграм-канал @RUSLEGKO</a></li>
+        </ul>
+
+        <!-- <p>По всем вопросам пишите на <a href="malto:1ruslegko@gmail.com">1ruslegko@gmail.com</a></p>
+        <p>Напишите мне в <a
+            href="https://wa.me/79253753577?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82...">WhatsApp</a>
+        </p>
+        <p>Подпишитесь на наш телеграм-канал <a href="https://t.me/ruslegko">@RUSLEGKO</a></p> -->
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  <div id="modal" class="modal">
+  <div class="modal-content">
+
+    <div class="_modalClose modal-content__close">
+      <div class="close-container">
+        <div class="leftright"></div>
+        <div class="rightleft"></div>
+      </div>
+    </div>
+    <div class="modal-content__left">
+      <div class="modal-content__top">
+        <h2 class="modal-title title title--h2 title--line _modalTitle"></h2>
+      </div>
+      <div class="form-section">
+
+        <form method="post" class="form form-section__content">
+          <input type="hidden" class="form__hidden-input _formName" name="site" value="">
+
+          <div class="input-block">
+            <label class="input-label input-label--req">ФИО</label>
+            <input type="text" class="form__input" placeholder="Ваше имя" name="name" data-mask="name" required>
+          </div>
+          <div class="input-block">
+            <label class="input-label input-label--req">Введите телефон</label>
+            <input type="tel" class="form__input _phone" placeholder="+7 (___) ___-__-__" name="phone" data-mask="phone"
+              required>
+          </div>
+
+          <div class="input-block _selectWrapper">
+            <label class="input-label input-label--req">Как с Вами связаться?</label>
+
+            <div class="form__input form-select _select">Выберите способ связи</div>
+
+            <ul class="form-select__list _select-list">
+              <li class="form-select__list-item" data-select="Телефон"><i class="bx bx-phone"></i> Телефон</li>
+              <li class="form-select__list-item" data-select="WhatsApp"><i class="bx bxl-whatsapp"></i>WhatsApp</li>
+              <li class="form-select__list-item" data-select="Telegram"><i class="bx bxl-telegram"></i>Telegram</li>
+            </ul>
+
+            <input type="text" name="social" value="" class="form-select__input-hidden _select-hidden" required>
+
+          </div>
+
+          <div class="form__button">
+            <button class="btn btn--sm btn--sec _submit" type="submit"></button>
+            <div class="form__pers">Отправляя форму, Вы даете <a href="politic.html">согласие на обработку
+                персональных данных</a>.
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal-content__right">
+      <img class="modal-content__img _modalImg" src="" alt="">
+    </div>
+
+  </div>
+</div>
+
+<div id="modalRev" class="modal">
+  <div class="modal-content">
+
+    <div class="_modalClose modal-content__close">
+      <div class="close-container">
+        <div class="leftright"></div>
+        <div class="rightleft"></div>
+      </div>
+    </div>
+
+    <div class="modal-content__rev">
+
+      <div class="modal-content__header">
+
+        <div class="modal-content__img _modalImg"></div>
+
+        <div class="modal-content__title">
+          <div class="modal-content__top">
+            <h2 class="modal-title title title--h2 title--line _modalTitle"></h2>
+          </div>
+
+          <div class="modal-content__desc _desc"></div>
+
+        </div>
+      </div>
+
+      <div class="modal-content__body _modalBody"></div>
+
+    </div>
+
+  </div>
+</div>
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/imask.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>

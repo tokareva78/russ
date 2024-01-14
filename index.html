@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Подготовка к ЕГЭ и ОГЭ по русскому языку</title>
+
+  <!-- prefetch заменить на preload -->
+  <link rel="prefetch" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="prefetch" href="fonts/RobotoFlex.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/boxicons.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <!-- Загрузка -->
+<div class="preloader" id="preloader">
+  <div class="preloader__percents"><span id="percents">0</span></div>
+  <div class="preloader__loader">
+    <div class="wave">
+      <img src="img/svg/icon.svg" alt="Перо" width="100" height="100" class="wave__icon">
+    </div>
+  </div>
+</div>
+<!-- Загрузка -->
+
+  <div class="site-container">
+    <header class="header-section">
+
+  <div class="overlay _overlay"></div>
+
+  <div class="container">
+    <div class="header-section__navigation">
+
+      <div class="header">
+
+        <!-- LOGO -->
+        <div class="header__logo">
+          <a href="index.html" class="header-logo _header-logo">
+            <img src="img/svg/logo-vertical.svg" width="170" height="70" alt="Русский легко">
+          </a>
+        </div>
+        <!-- LOGO -->
+
+        <!-- NAV  -->
+        <div class="header__menu">
+          <div class="menu-content _menu">
+
+            <nav class="nav menu-content__nav _nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+
+                <!-- Наши курсы -->
+                <li class="nav__item nav__item--drop">
+                  <a href="#" class="nav__link nav__link--drop">Наши курсы</a>
+
+                  <ul class="nav__list nav__list--dropdown dropdown-list dropdown-submenu" data-grid="2">
+
+                    <!-- Подготовка к ЕГЭ -->
+                    <li class="dropdown-submenu__item">
+                      <a href="courses-ege-page.html" class="box dropdown-submenu__banner">
+                        <img src="img/decor/group-8.webp" alt="Подготовка к ЕГЭ">
+                        <div class="box__title">
+                          <h2>Подготовка к ЕГЭ</h2>
+                          <p>Для учеников 10-11 классов и всех желающих сдавать ЕГЭ по русскому языку в 2024 году</p>
+                        </div>
+                      </a>
+                    </li>
+
+                    <!-- Подготовка к ОГЭ -->
+                    <li class="dropdown-submenu__item">
+                      <a href="courses-oge-page.html" class="box dropdown-submenu__banner">
+                        <img src="img/decor/group-10.webp" alt="Подготовка к ОГЭ">
+                        <div class="box__title">
+                          <h2>Подготовка к ОГЭ</h2>
+                          <p>Пройдем всю программу по русскому языку за 5–9 классы (абсолютно все необходимые
+                            темы)</p>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="dropdown-submenu__item" data-grid="3" data-grid-span="2" data-nav="box-button">
+                      <div class="dropdown-submenu__title" data-grid-span="3">
+                        Мини-курсы
+                      </div>
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Сочинение <span>ЕГЭ</span></h2>
+                        </div>
+                      </a>
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Сочинение <span>ОГЭ</span></h2>
+                        </div>
+                      </a>
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Изложение <span>ОГЭ</span></h2>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+
+                </li>
+
+                <!-- Платные продукты -->
+                <li class="nav__item nav__item--drop">
+                  <a href="#" class="nav__link nav__link--drop">Практика</a>
+
+                  <ul class="nav__list nav__list--dropdown dropdown-list dropdown-submenu" data-grid="3">
+
+                    <li class="dropdown-submenu__item" data-nav="box-button">
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Тренажёр <br>«Слова с <span>ПРЕ-</span> и <span>ПРИ-</span>»</h2>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="dropdown-submenu__item" data-nav="box-button">
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Чередование гласных в корне</h2>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="dropdown-submenu__item" data-nav="box-button">
+                      <a href="#" class="box dropdown-submenu__banner">
+                        <div class="box__title">
+                          <h2>Ударения в словах</h2>
+                        </div>
+                      </a>
+                    </li>
+                    <!-- <li class="dropdown-submenu__item">
+                                    <h2 class="dropdown-submenu__title">Подготовка к ЕГЭ</h2>
+                                    <a href="sales.html" class="nav__link dropdown-submenu__banner">
+                                      <img src="img/decor/sochinenie.webp" alt="Подготовка к ЕГЭ">
+                                    </a>
+                                  </li> -->
+
+                  </ul>
+
+                </li>
+
+                <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+        <!-- NAV  -->
+
+        <!-- CONNECT -->
+        <div class="header__connection">
+          <!-- Заказать звонок -->
+          <div class="header-btn _header-btn">
+            <button class="btn btn--border btn--sm _btn" data-modal-target="modal" aria-label="Заказать звонок" data-img-form="img/decor/group-7.webp">Заказать звонок</button>
+          </div>
+          <!-- Заказать звонок -->
+          <!-- Социальные сети -->
+          <ul class="header-socials _header-socials">
+            <li><a href="whatsapp://send?phone=+79253753577" class="header-socials__icon" target="_blank"><img
+                  src="img/svg/icon-wts.svg" width="30" height="30" alt="Ватсап Русский легко"></a></li>
+            <li><a href="https://t.me/SDvorets" class="header-socials__icon" target="_blank"><img
+                  src="img/svg/icon-tlgr.svg" width="30" height="30" alt="Телеграм Русский легко"></a></li>
+          </ul>
+          <!-- Социальные сети -->
+        </div>
+        <!-- CONNECT -->
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BURGER -->
+  <div class="hamburger-slim">
+    <div class="icon nav-icon _hamburger" aria-label="Меню">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <!-- BURGER hamburger-slim -->
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav _mobile-nav">
+    <div class="mobile-nav__logo _mobile-logo"></div>
+    <div class="mobile-nav__menu _mobile-nav-menu"></div>
+    <div class="mobile-nav__footer _mobile-nav-footer"></div>
+  </div>
+  <!-- MOBILE NAV -->
+
+</header>
+
+    <main class="main">
+      <section class="hero-section main__hero-section">
+  <div class="hero-section__container container">
+    <div class="hero">
+      <div class="hero__wrapper">
+        <div class="hero__img">
+          <picture>
+            <source srcset="img/decor/hero-1.webp" media="(max-width: 768px)">
+            <source srcset="img/decor/hero-1.webp" type="image/webp">
+            <img src="img/decor/hero-1.jpg" alt="">
+          </picture>
+        </div>
+        <div class="hero__content">
+          <div class="hero__title">
+            <h1>Подготовка к <span>ОГЭ</span> и <span>ЕГЭ</span> по русскому языку</h1>
+          </div>
+          <p>Научим понимать русский язык, а не просто зубрить</p>
+          <ul>
+            <li>Подготовка с репетитором по русскому языку 2 раза в неделю</li>
+            <li>84% учеников сдают на 5 баллов после курсов</li>
+            <li>Работающая методика онлайн‑обучения</li>
+          </ul>
+          <div class="hero__btns">
+            <button class="btn btn--w btn--mb _btn" data-modal-target="modal" aria-label="Помочь выбрать курс?" data-img-form="img/decor/tutor-3.webp">Консультация</button>
+            <a href="#courses" class="btn btn--link btn--link-mb">Выбрать курс
+              <svg viewBox="0 0 70 36">
+                <path
+                  d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="wool-section main__wool-section pt100 pb80">
+  <h2 class="visually-hidden">Подробнее об обучении</h2>
+  <div class="wool-section__container container">
+    <div class="wool wool--man">
+
+      <div class="wool__content">
+        <h3><span>На одной волне</span> со знаниями</h3>
+        <p>Я говорю с учениками на их языке и знаю, как заинтересовать предметом.</p>
+        <a href="repetitor.html" class="btn btn--comment btn--sm">О репетиторе</a>
+      </div>
+
+      <div class="wool__img">
+        <picture>
+          <source srcset="img/decor/cheerful-happy-400-364.webp" media="(max-width: 1070px)">
+          <source srcset="img/decor/cheerful-happy-400-538.webp" type="image/webp">
+          <img src="img/decor/cheerful-happy-400-538.png" alt="">
+        </picture>
+      </div>
+
+    </div>
+
+    <div class="wool wool--price">
+
+      <div class="wool__content">
+        <h3>Всего <span>500 рублей</span> за урок</h3>
+        <p>Подготовка к ЕГЭ еще никогда не была такой доступной!</p>
+        <!-- <ul> -->
+        <!-- <li>2&nbsp;занятия каждую неделю</li>
+          <li>Групповые онлайн-занятия</li> -->
+        <!-- <li>Чек-листы для подготовки к экзамену</li>
+          <li>Алгоритмы выполнения каждого задания ЕГЭ</li>
+          <li>Доступ в общий чат для обсуждения</li> -->
+        <!-- <li>домашние задания с&nbsp;проверкой</li>
+          <li>личный куратор всегда на&nbsp;связи</li> -->
+        <!-- </ul> -->
+        <a href="courses-ege-page.html" class="btn btn--z">Подробнее<i
+            class="bx bx-right-arrow-alt bx-fade-right"></i></a>
+      </div>
+
+    </div>
+
+    <div class="wool wool--consultation">
+      <div class="wool__content">
+        <h3>Ответим на все ваши вопросы</h3>
+        <p>и поможем выбрать программу обучения</p>
+        <button class="btn btn--link _btn" data-modal-target="modal" aria-label="Помочь выбрать курс?"
+          data-img-form="img/decor/group-14.webp">Консультация
+          <svg viewBox="0 0 70 36">
+            <path
+              d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527">
+            </path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+       <section class="carousel-section main__carousel-section" id="courses">
+  <div class="carousel-section__container container">
+    <div class="carousel-section__title title title--m-center">
+      <h2>Начни подготовку к экзамену</h2>
+    </div>
+    <div class="carousel swiper">
+      <ul class="carousel__list swiper-wrapper">
+
+        <li class="carousel__item swiper-slide">
+          <div class="carousel__box">
+            <div class="carousel__image"><img src="img/decor/group-10.webp"></div>
+            <div class="carousel__contents">
+              <div class="carousel__link">
+                <a href="courses-oge-page.html" class="btn btn--link">Подробнее
+                  <svg viewBox="0 0 70 36">
+                    <path
+                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+
+              <h2 class="carousel__title">Курс подготовки ОГЭ</h2>
+              <h3 class="carousel__desc">Для старшеклассников 5-9 классов</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="carousel__item swiper-slide">
+          <div class="carousel__box">
+            <div class="carousel__image"><img src="img/decor/group-8.webp"></div>
+            <div class="carousel__contents">
+              <div class="carousel__link">
+                <a href="courses-ege-page.html" class="btn btn--link">Подробнее
+                  <svg viewBox="0 0 70 36">
+                    <path
+                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+              <h2 class="carousel__title">Курс подготовки ЕГЭ</h2>
+              <h3 class="carousel__desc">Для старшеклассников 10-11 классов</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="carousel__item swiper-slide">
+          <div class="carousel__box">
+            <div class="carousel__image carousel__image--orn-9"></div>
+            <div class="carousel__contents">
+              <div class="carousel__link">
+                <a href="#" class="btn btn--link">Подробнее
+                  <svg viewBox="0 0 70 36">
+                    <path
+                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+              <h2 class="carousel__title">Сочинение ЕГЭ</h2>
+              <h3 class="carousel__desc">Вебинар для учеников 10-11 классов</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="carousel__item swiper-slide">
+          <div class="carousel__box">
+            <div class="carousel__image carousel__image--orn-8"></div>
+            <div class="carousel__contents">
+              <div class="carousel__link">
+                <a href="#" class="btn btn--link">Подробнее
+                  <svg viewBox="0 0 70 36">
+                    <path
+                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+              <h2 class="carousel__title">Сочинение ОГЭ</h2>
+              <h3 class="carousel__desc">Вебинар для учеников 7-9 классов</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="carousel__item swiper-slide">
+          <div class="carousel__box">
+            <div class="carousel__image carousel__image--orn-4"></div>
+            <div class="carousel__contents">
+              <div class="carousel__link">
+                <a href="#" class="btn btn--link">Подробнее
+                  <svg viewBox="0 0 70 36">
+                    <path
+                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+              <h2 class="carousel__title">Изложение ОГЭ</h2>
+              <h3 class="carousel__desc">Вебинар для учеников 7-9 классов</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="carousel__item swiper-slide">
+          <div class="carousel__box">
+            <div class="carousel__image carousel__image--orn-3"></div>
+            <div class="carousel__contents">
+              <div class="carousel__link">
+                <a href="courses-oge-page.html" class="btn btn--link">Подробнее
+                  <svg viewBox="0 0 70 36">
+                    <path
+                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+              <h2 class="carousel__title">Тренажёр «Слова с ПРЕ- и ПРИ-»</h2>
+              <h3 class="carousel__desc">Тематический тренинг при подготовке к сдаче ОГЭ и ЕГЭ по русскому языку</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="carousel__item swiper-slide">
+          <div class="carousel__box">
+            <div class="carousel__image carousel__image--orn-2"></div>
+            <div class="carousel__contents">
+              <div class="carousel__link">
+                <a href="courses-oge-page.html" class="btn btn--link">Подробнее
+                  <svg viewBox="0 0 70 36">
+                    <path
+                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+              <h2 class="carousel__title">Чередование гласных в корне</h2>
+              <h3 class="carousel__desc">Тематический тренинг при подготовке к сдаче ОГЭ и ЕГЭ по русскому языку</h3>
+            </div>
+          </div>
+        </li>
+
+        <li class="carousel__item swiper-slide">
+          <div class="carousel__box">
+            <div class="carousel__image"></div>
+            <div class="carousel__contents">
+              <div class="carousel__link">
+                <a href="courses-oge-page.html" class="btn btn--link">Подробнее
+                  <svg viewBox="0 0 70 36">
+                    <path
+                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+              <h2 class="carousel__title">Ударения в словах</h2>
+              <h3 class="carousel__desc">Тематический тренинг при подготовке к сдаче ОГЭ и ЕГЭ по русскому языку</h3>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+  </div>
+</section>
+
+      <section class="tutor-section main__tutor-section">
+  <div class="tutor-section__container container">
+    <div class="tutor-section__title title title--m-center">
+      <h3>Ваш репетитор</h3>
+      <h2>Светлана Дворецкая</h2>
+    </div>
+    <div class="tutor">
+      <picture>
+        <source srcset="img/decor/sv-o.webp" media="(max-width: 768px)">
+        <source srcset="img/decor/sv-o.webp" type="image/webp">
+        <img src="img/decor/sv-o.png" alt="Светлана Дворецкая">
+      </picture>
+      <p>Тренер и методист по эйдетике и скорочтению. Учу запоминать информацию быстро, легко и надолго.</p>
+      <p>Работаю с учениками по своей системе обучения с 2010 года.</p>
+      <p>Автор программы для школьников <strong>«Учись учиться»</strong>.</p>
+
+      <p>Проводила курсы повышения квалификации учителей частных школ (г.Москва).</p>
+      <p>Преподаю русский язык по <strong>своей уникальной методике</strong> с 2014 года.</p>
+      <p>Помогаю быстро закрыть пробелы в знаниях, <strong>многие ученики с двойками</strong> за пробный ОГЭ через
+        год работы со мной <strong>сдавали экзамен на 4 и 5</strong>.</p>
+      <p>Готовлю к ЕГЭ по русскому языку уже 8 лет. <strong>Средний балл учеников за 8 лет — от 85 до 97</strong>.
+      </p>
+      <h3>Специалист образовательной и антистрессовой кинезиологии:</h3>
+      <ol>
+        <li>Курс <br><b>«Гимнастика мозга»</b> <br>(«Brain Gym» Dr. Paul Dennison (USA))</li>
+        <li>Курс <br><b>«Оптимальная организация мозга»</b></li>
+        <li>Курс <br><b>«Антистрессовая кинезиология»</b></li>
+      </ol>
+      <!-- <div class="tutor__content">
+        <div class="tutor__item">
+
+        </div>
+        <div class="tutor__item">
+
+        </div>
+        <div class="tutor__item">
+
+        </div>
+
+        <div class="tutor__img">
+          <picture>
+            <source srcset="img/decor/tutor-3.webp" media="(max-width: 768px)">
+            <source srcset="img/decor/tutor-3.webp" type="image/webp">
+            <img src="img/decor/tutor-3.jpg" alt="">
+          </picture>
+        </div>
+      </div> -->
+
+    </div>
+
+  </div>
+</section>
+
+      <section class="faqs-section main__faqs-section">
+  <div class="faqs-section__container container">
+    <div class="faqs">
+      <div class="faqs__content">
+        <div class="faqs__title">
+          <h2>Часто задаваемые вопросы</h2>
+        </div>
+        <div class="faqs__desc">
+          <p>У вас остались вопросы?</p>
+          <button class="btn btn--border btn--fv _btn" type="button" data-modal-target="modal" aria-label="Консультация"
+            data-img-form="img/decor/group-15.webp">Свяжитесь со мной</button>
+        </div>
+      </div>
+
+      <div class="faqs__wrapper accordion _accordion">
+
+        <div class="accordion__item _accordionItem">
+          <div class="accordion__wrapper _accordionWrapper">
+            <div class="accordion__btn _accordionBtn">
+              <h3>Какие разделы и темы русского языка вы включаете в подготовку к ЕГЭ и ОГЭ?</h3>
+              <span class="arrow-down-close"></span>
+            </div>
+            <div class="accordion__content _accordionContent">
+              <div style="min-height: 0;">
+                <p>Моя подготовка включает в себя все разделы и темы, предусмотренные программой ЕГЭ и ОГЭ, включая
+                  анализ
+                  текста,
+                  сочинение, грамматику и другие ключевые аспекты, которые помогут вам справиться с экзаменом.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="accordion__item _accordionItem">
+          <div class="accordion__wrapper  _accordionWrapper">
+            <div class="accordion__btn _accordionBtn">
+              <h3>Сколько времени потребуется на подготовку к ЕГЭ или ОГЭ?</h3>
+              <span class="arrow-down-close"></span>
+            </div>
+            <div class="accordion__content _accordionContent">
+              <div style="min-height: 0;">
+                <p>Время подготовки может варьироваться в зависимости от вашего текущего уровня, целей и индивидуальных
+                  особенностей.
+                  Обычно рекомендуется начать подготовку заранее, например, за несколько месяцев до экзамена.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="accordion__item _accordionItem">
+          <div class="accordion__wrapper  _accordionWrapper">
+            <div class="accordion__btn _accordionBtn">
+              <h3>Есть ли у вас опыт работы с учениками, которые испытывают трудности с русским языком?</h3>
+              <span class="arrow-down-close"></span>
+            </div>
+            <div class="accordion__content _accordionContent">
+              <div style="min-height: 0;">
+                <p>Да, я имею опыт работы с учениками, у которых есть трудности с русским языком. Моя задача — помочь
+                  каждому
+                  ученику
+                  преодолеть эти трудности и достичь успеха.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accordion__item _accordionItem">
+          <div class="accordion__wrapper  _accordionWrapper">
+            <div class="accordion__btn _accordionBtn">
+              <h3>Проводите ли вы тестирование и оценку уровня подготовки перед началом занятий?</h3>
+              <span class="arrow-down-close"></span>
+            </div>
+            <div class="accordion__content _accordionContent">
+              <div style="min-height: 0;">
+                <p>Да, я провожу начальное тестирование, чтобы оценить ваш текущий уровень владения русским языком. Это
+                  помогает мне
+                  разработать индивидуальный план подготовки.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accordion__item _accordionItem">
+          <div class="accordion__wrapper  _accordionWrapper">
+            <div class="accordion__btn _accordionBtn">
+              <h3>Какова статистика успеха ваших учеников на ЕГЭ и ОГЭ?</h3>
+              <span class="arrow-down-close"></span>
+            </div>
+            <div class="accordion__content _accordionContent">
+              <div style="min-height: 0;">
+                <p>Многие из моих учеников достигли высоких результатов на ЕГЭ и ОГЭ по русскому языку, и я горжусь их
+                  успехами. Я
+                  всегда стремлюсь помочь каждому ученику максимально раскрыть свой потенциал.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accordion__item _accordionItem">
+          <div class="accordion__wrapper  _accordionWrapper">
+            <div class="accordion__btn _accordionBtn">
+              <h3>Можете ли вы проводить индивидуальные занятия для подготовки к экзаменам?</h3>
+              <span class="arrow-down-close"></span>
+            </div>
+            <div class="accordion__content _accordionContent">
+              <div style="min-height: 0;">
+                <p>Да, я предоставляю как индивидуальные, так и групповые занятия. Индивидуальные занятия позволяют
+                  более
+                  глубоко
+                  адаптировать учебный процесс к потребностям конкретного ученика.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer-section">
+  <div class="container">
+
+    <div class="footer">
+      <div class="footer__item">
+        <!-- LOGO -->
+        <div class="footer__logo">
+          <a href="index.html" class="footer-logo">
+            <img src="img/svg/logo-vertical-white.svg" width="170" height="70" alt="Русский легко">
+          </a>
+        </div>
+        <!-- LOGO -->
+        <div class="footer__content">
+          <p>@ 2023 ИП Дворецкий В.Е.</p>
+          <p><a href="publichnaya-oferta.html">Публичная оферта</a></p>
+          <p><a href="politic.html">Политика конфиденциальности</a></p>
+            <p>Создание и сопровождение сайтов <a href="politic.html">АннаТок</a></p>
+        </div>
+
+      </div>
+      <div class="footer__item">
+        <nav class="footer__nav">
+          <ul>
+            <li>
+              <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">О преподавателе</a></li>
+                <li><a href="#">Преимущества нашей методики</a></li>
+              </ul>
+
+            </li>
+            <li>
+              <h2>Курсы</h2>
+              <ul>
+                <li><a href="#">Подготовка к ЕГЭ</a></li>
+                <li><a href="#">Подготовка к ОГЭ</a></li>
+              </ul>
+            </li>
+            <li>
+              <h2>Мини курсы</h2>
+              <ul>
+                <li><a href="#">Сочинение ЕГЭ</a></li>
+                <li><a href="#">Сочинение ОГЭ</a></li>
+                <li><a href="#">Изложение ОГЭ</a></li>
+              </ul>
+            </li>
+            <li>
+              <h2>Практика</h2>
+              <ul>
+                <li><a href="">Тренажёр «Слова с ПРЕ- и ПРИ-»</a></li>
+                <li><a href="">Чередование гласных в корне</a></li>
+                <li><a href="">Ударения в словах</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+
+    </div>
+
+    <div class="footer-section__bottom footer-bottom">
+      <div class="footer-bottom__content">
+        <ul>
+          <li><a href="malto:1ruslegko@gmail.com">1ruslegko@gmail.com</a></li>
+          <li><a
+            href="https://wa.me/79253753577?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82...">WhatsApp</a></li>
+          <li><a href="https://t.me/ruslegko">телеграм-канал @RUSLEGKO</a></li>
+        </ul>
+
+        <!-- <p>По всем вопросам пишите на <a href="malto:1ruslegko@gmail.com">1ruslegko@gmail.com</a></p>
+        <p>Напишите мне в <a
+            href="https://wa.me/79253753577?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82...">WhatsApp</a>
+        </p>
+        <p>Подпишитесь на наш телеграм-канал <a href="https://t.me/ruslegko">@RUSLEGKO</a></p> -->
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+<div id="modal" class="modal">
+  <div class="modal-content">
+
+    <div class="_modalClose modal-content__close">
+      <div class="close-container">
+        <div class="leftright"></div>
+        <div class="rightleft"></div>
+      </div>
+    </div>
+    <div class="modal-content__left">
+      <div class="modal-content__top">
+        <h2 class="modal-title title title--h2 title--line _modalTitle"></h2>
+      </div>
+      <div class="form-section">
+
+        <form method="post" class="form form-section__content">
+          <input type="hidden" class="form__hidden-input _formName" name="site" value="">
+
+          <div class="input-block">
+            <label class="input-label input-label--req">ФИО</label>
+            <input type="text" class="form__input" placeholder="Ваше имя" name="name" data-mask="name" required>
+          </div>
+          <div class="input-block">
+            <label class="input-label input-label--req">Введите телефон</label>
+            <input type="tel" class="form__input _phone" placeholder="+7 (___) ___-__-__" name="phone" data-mask="phone"
+              required>
+          </div>
+
+          <div class="input-block _selectWrapper">
+            <label class="input-label input-label--req">Как с Вами связаться?</label>
+
+            <div class="form__input form-select _select">Выберите способ связи</div>
+
+            <ul class="form-select__list _select-list">
+              <li class="form-select__list-item" data-select="Телефон"><i class="bx bx-phone"></i> Телефон</li>
+              <li class="form-select__list-item" data-select="WhatsApp"><i class="bx bxl-whatsapp"></i>WhatsApp</li>
+              <li class="form-select__list-item" data-select="Telegram"><i class="bx bxl-telegram"></i>Telegram</li>
+            </ul>
+
+            <input type="text" name="social" value="" class="form-select__input-hidden _select-hidden" required>
+
+          </div>
+
+          <div class="form__button">
+            <button class="btn btn--sm btn--sec _submit" type="submit"></button>
+            <div class="form__pers">Отправляя форму, Вы даете <a href="politic.html">согласие на обработку
+                персональных данных</a>.
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal-content__right">
+      <img class="modal-content__img _modalImg" src="" alt="">
+    </div>
+
+  </div>
+</div>
+
+<div id="modalRev" class="modal">
+  <div class="modal-content">
+
+    <div class="_modalClose modal-content__close">
+      <div class="close-container">
+        <div class="leftright"></div>
+        <div class="rightleft"></div>
+      </div>
+    </div>
+
+    <div class="modal-content__rev">
+
+      <div class="modal-content__header">
+
+        <div class="modal-content__img _modalImg"></div>
+
+        <div class="modal-content__title">
+          <div class="modal-content__top">
+            <h2 class="modal-title title title--h2 title--line _modalTitle"></h2>
+          </div>
+
+          <div class="modal-content__desc _desc"></div>
+
+        </div>
+      </div>
+
+      <div class="modal-content__body _modalBody"></div>
+
+    </div>
+
+  </div>
+</div>
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/imask.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
